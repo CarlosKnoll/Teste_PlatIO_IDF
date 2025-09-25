@@ -1,0 +1,2857 @@
+Listagem de caminhos de pasta
+O n£mero de s‚rie do volume ‚ 0EA3-9152
+C:.
+|   .gitignore
+|   CMakeLists.txt
+|   partitions_example.csv
+|   platformio.ini
+|   sdkconfig.heltec_wifi_lora_32
+|   sdkconfig.heltec_wifi_lora_32.old
+|   tree.txt
+|   
++---.pio
+|   \---build
+|       |   project.checksum
+|       |   
+|       \---heltec_wifi_lora_32
+|           |   .sconsign311.dblite
+|           |   app-flash_args
+|           |   bootloader-flash_args
+|           |   bootloader.bin
+|           |   bootloader.elf
+|           |   build.ninja
+|           |   CMakeCache.txt
+|           |   cmake_install.cmake
+|           |   compile_commands.json
+|           |   config.env
+|           |   firmware.bin
+|           |   firmware.elf
+|           |   flasher_args.json
+|           |   flash_app_args
+|           |   flash_args
+|           |   flash_args.in
+|           |   flash_bootloader_args
+|           |   flash_project_args
+|           |   idedata.json
+|           |   kconfigs.in
+|           |   kconfigs_projbuild.in
+|           |   ldgen_libraries
+|           |   ldgen_libraries.in
+|           |   ldgen_libraries_pio
+|           |   memory.ld
+|           |   partition-table-flash_args
+|           |   partitions.bin
+|           |   project_description.json
+|           |   rules.ninja
+|           |   sections.ld
+|           |   spiffs-flash_args
+|           |   spiffs.bin
+|           |   Teste_PlatIO_IDF.map
+|           |   x509_crt_bundle
+|           |   x509_crt_bundle.S
+|           |   
+|           +---.cmake
+|           |   \---api
+|           |       \---v1
+|           |           +---query
+|           |           |       codemodel-v2
+|           |           |       
+|           |           \---reply
+|           |                   codemodel-v2-b09fded34f58fcc985cc.json
+|           |                   index-2025-09-25T16-29-05-0205.json
+|           |                   target-apidoc-bfbfc2ad1bbfaceb943a.json
+|           |                   target-app-60463a858989053e4125.json
+|           |                   target-app-flash-42589417bcdad789a192.json
+|           |                   target-app_check_size-ae94d2c42d742d75574c.json
+|           |                   target-bootloader-8ecb0b3da293b21e6ad0.json
+|           |                   target-bootloader-flash-00a169d37a2790e66664.json
+|           |                   target-confserver-b0a0666a613280439c61.json
+|           |                   target-custom_bundle-f9553139b0f2d9587a50.json
+|           |                   target-efuse-common-table-6d7702adfe65c0d5ea34.json
+|           |                   target-efuse-custom-table-889fb9c7e492e5be64d9.json
+|           |                   target-efuse_common_table-d46e3e9d4536d84ce54a.json
+|           |                   target-efuse_custom_table-4a7947f59ca3f47940f0.json
+|           |                   target-efuse_test_table-11f67569076e634e4011.json
+|           |                   target-encrypted-app-flash-2ab687c72dc853e711ea.json
+|           |                   target-encrypted-bootloader-flash-8aefdfc8bd1cd200758d.json
+|           |                   target-encrypted-flash-a181b6a0e784f1743015.json
+|           |                   target-encrypted-partition-table-flash-8bff15a9e0add39d3df6.json
+|           |                   target-encrypted-spiffs-flash-5a172dc585c031664041.json
+|           |                   target-erase_flash-dfef370ef29c3ab63a27.json
+|           |                   target-everest-98b1b31852ba60989f79.json
+|           |                   target-flash-70d0cba66c6d5840fb5b.json
+|           |                   target-gen_project_binary-cba8aebc93ab02aec5e1.json
+|           |                   target-lib-24a8df1355453519c022.json
+|           |                   target-mbedcrypto-fb7c34954823f4fd07b0.json
+|           |                   target-mbedtls-f3607f91ee27a9aa48f9.json
+|           |                   target-mbedx509-2c9dd21513b775c19efd.json
+|           |                   target-memory.ld-c2ba237a80d18d7a69e7.json
+|           |                   target-menuconfig-ba5eaa0944f69492fc3e.json
+|           |                   target-merge-bin-336df1139fe34f09010a.json
+|           |                   target-monitor-717514b818a2cf92c145.json
+|           |                   target-p256m-01760368c0a2a1d63191.json
+|           |                   target-partition-table-fcd3403ba0549edbcc83.json
+|           |                   target-partition-table-flash-a344e1f7f14aaecde27d.json
+|           |                   target-partition_table-4bdb7a2c2712eaced014.json
+|           |                   target-partition_table-flash-7857e7673b5bc9513ea7.json
+|           |                   target-partition_table_bin-8d9792f78cd684604e95.json
+|           |                   target-save-defconfig-677ce384de0abc60c4c5.json
+|           |                   target-sections.ld.in-0650365e683d781221e9.json
+|           |                   target-show-efuse-table-b53a186af594bf25c7d6.json
+|           |                   target-show_efuse_table-dc38aeed460c93d3f964.json
+|           |                   target-size-9a18bcb8cfbf45619516.json
+|           |                   target-size-components-35785c1445b6a8987504.json
+|           |                   target-size-files-294bf354086caa3582c0.json
+|           |                   target-spiffs-flash-f8b1edad7a4cb4da3833.json
+|           |                   target-spiffs_spiffs_bin-7fd1db1a3b206e24aae5.json
+|           |                   target-Teste_PlatIO_IDF.elf-06c621057f131de3dadb.json
+|           |                   target-uf2-app-84a875095bce74de8558.json
+|           |                   target-uf2-c5e07d73e758844b5ee3.json
+|           |                   target-_project_elf_src-4d046a7978ac18e8a437.json
+|           |                   target-__idf_app_trace-7cb79c8b12998744a329.json
+|           |                   target-__idf_app_update-94d449ed9ad0a0b8f5a9.json
+|           |                   target-__idf_bootloader_support-357770d69a7e2300cfd8.json
+|           |                   target-__idf_cmock-f7db4a10999fbe41b3a4.json
+|           |                   target-__idf_console-deaec69af736278048a4.json
+|           |                   target-__idf_cxx-b7fb6bd011ad5d198bb7.json
+|           |                   target-__idf_driver-bc29156c99a55ed53865.json
+|           |                   target-__idf_efuse-f52d7fa4f607929fc5fc.json
+|           |                   target-__idf_esp-tls-f069fbb99dc59ff5e978.json
+|           |                   target-__idf_espcoredump-8e87ecc5e8ad28f76150.json
+|           |                   target-__idf_esp_adc-7970fbf8916d5d2d9b05.json
+|           |                   target-__idf_esp_app_format-773c55d7a21b949379dd.json
+|           |                   target-__idf_esp_bootloader_format-f8a5d52a68d23ec98703.json
+|           |                   target-__idf_esp_coex-ee296b189c198fdda13f.json
+|           |                   target-__idf_esp_common-aec0ea53d3d424445107.json
+|           |                   target-__idf_esp_driver_cam-8606ce7d198fdcd79c74.json
+|           |                   target-__idf_esp_driver_dac-1dafa79c8f0cbec24c74.json
+|           |                   target-__idf_esp_driver_gpio-d688b9e5d6b442653888.json
+|           |                   target-__idf_esp_driver_gptimer-3f37df4d1097ad8e6ee9.json
+|           |                   target-__idf_esp_driver_i2c-4dbfaf3cb6f5c99a3112.json
+|           |                   target-__idf_esp_driver_i2s-d40f3d77f2401400f79e.json
+|           |                   target-__idf_esp_driver_ledc-265ced000f8154b3dc8a.json
+|           |                   target-__idf_esp_driver_mcpwm-28ed94832de83f960cf8.json
+|           |                   target-__idf_esp_driver_pcnt-b0ba8192fe5857de1f15.json
+|           |                   target-__idf_esp_driver_rmt-bb98b0e556248e841e37.json
+|           |                   target-__idf_esp_driver_sdio-bf641821e3e8cfd1a8d5.json
+|           |                   target-__idf_esp_driver_sdm-79f460d9a7532ee04817.json
+|           |                   target-__idf_esp_driver_sdmmc-6adde981bc7bdcc1a3a1.json
+|           |                   target-__idf_esp_driver_sdspi-c84c917c6ce05141e74a.json
+|           |                   target-__idf_esp_driver_spi-7fbea54b20065b6791d9.json
+|           |                   target-__idf_esp_driver_uart-4d55694481b20150d5de.json
+|           |                   target-__idf_esp_eth-9601c6606532f8cc41f3.json
+|           |                   target-__idf_esp_event-6cee2cd4ec9c692c4e26.json
+|           |                   target-__idf_esp_gdbstub-91ee71ad1aecac6322c5.json
+|           |                   target-__idf_esp_hid-c2c80232f73b232af2ba.json
+|           |                   target-__idf_esp_https_ota-96860878c541165882ce.json
+|           |                   target-__idf_esp_https_server-04340d61fb037df82604.json
+|           |                   target-__idf_esp_http_client-535bed14c707ed663afe.json
+|           |                   target-__idf_esp_http_server-9f675b632f5a0a27bf2d.json
+|           |                   target-__idf_esp_hw_support-5961c6732f5507cfd81c.json
+|           |                   target-__idf_esp_lcd-c65f37e7542ea5b56dc2.json
+|           |                   target-__idf_esp_local_ctrl-cf02d7eacf19860f4c0c.json
+|           |                   target-__idf_esp_mm-4515208ef73df7b737f4.json
+|           |                   target-__idf_esp_netif-a364a3ccf11805bb76ac.json
+|           |                   target-__idf_esp_partition-a20f6b2359ac25d58621.json
+|           |                   target-__idf_esp_phy-da3e24e53e5544465ee2.json
+|           |                   target-__idf_esp_pm-8cd5be29cd56fba200ad.json
+|           |                   target-__idf_esp_ringbuf-2280dc3bc8464d4d6eeb.json
+|           |                   target-__idf_esp_rom-cf0caa9aeb52932269f6.json
+|           |                   target-__idf_esp_security-e83471c683ed730574db.json
+|           |                   target-__idf_esp_system-32c3ba85c45f3d319ad4.json
+|           |                   target-__idf_esp_timer-0d298b39f55e14b3d242.json
+|           |                   target-__idf_esp_vfs_console-c72e735b365c9caf1794.json
+|           |                   target-__idf_esp_wifi-77338f4f8b0c8f431c7a.json
+|           |                   target-__idf_fatfs-abd45bd18016723c5479.json
+|           |                   target-__idf_freertos-dc26f76c13725cf71c1e.json
+|           |                   target-__idf_hal-cdc954a9f7b193d1727a.json
+|           |                   target-__idf_heap-dbaaa52223fd92c1a8a6.json
+|           |                   target-__idf_http_parser-3cad5b57e69659e2a27d.json
+|           |                   target-__idf_json-29522d125b2c68c25df5.json
+|           |                   target-__idf_log-893c2e2ee9ee5888b061.json
+|           |                   target-__idf_lwip-fd5c507a7db702f932cb.json
+|           |                   target-__idf_mbedtls-cbd3674a99712b7223da.json
+|           |                   target-__idf_mqtt-ee2c6843b258958ac08d.json
+|           |                   target-__idf_newlib-4ce817c485cead5928c8.json
+|           |                   target-__idf_nvs_flash-e2f7819309d34fe44ba0.json
+|           |                   target-__idf_nvs_sec_provider-2eec96464e8984d35f02.json
+|           |                   target-__idf_perfmon-32be4f9437fa2631260a.json
+|           |                   target-__idf_protobuf-c-501b7e56460ded6c294b.json
+|           |                   target-__idf_protocomm-bc9578283b6199354f74.json
+|           |                   target-__idf_pthread-d9aab04891849343db2d.json
+|           |                   target-__idf_rt-8696b4360925d274f155.json
+|           |                   target-__idf_sdmmc-181f5a98184522c61621.json
+|           |                   target-__idf_soc-c44cc8893db2c08f52db.json
+|           |                   target-__idf_spiffs-d4c1ea81eea360537202.json
+|           |                   target-__idf_spi_flash-3498a31cfd001fba28c8.json
+|           |                   target-__idf_src-bae72ad3552f15572979.json
+|           |                   target-__idf_tcp_transport-0a8f83404383275ea863.json
+|           |                   target-__idf_unity-6e3610ccb4dbbed67690.json
+|           |                   target-__idf_vfs-59225fad6b2fcd32c3ff.json
+|           |                   target-__idf_wear_levelling-4e8d6779139c347963e6.json
+|           |                   target-__idf_wifi_provisioning-1f1c6526394d9e68ea5b.json
+|           |                   target-__idf_wpa_supplicant-bcb96118673eb305ec16.json
+|           |                   target-__idf_xtensa-64cdcdf0a1ecd7740d12.json
+|           |                   target-__idf___pio_env-ee48fc73d24734a00161.json
+|           |                   target-__ldgen_output_sections.ld-0bc20dba62da40b8ce02.json
+|           |                   
+|           +---.pio
+|           |   \---build
+|           |       \---heltec_wifi_lora_32
+|           |               x509_crt_bundle.S.o
+|           |               
+|           +---app_trace
+|           |   |   app_trace.c.o
+|           |   |   app_trace_util.c.o
+|           |   |   host_file_io.c.o
+|           |   |   
+|           |   \---port
+|           |           port_uart.c.o
+|           |           
+|           +---app_update
+|           |       esp_ota_app_desc.c.o
+|           |       esp_ota_ops.c.o
+|           |       
+|           +---bootloader
+|           |   |   bootloader.map
+|           |   |   build.ninja
+|           |   |   CMakeCache.txt
+|           |   |   cmake_install.cmake
+|           |   |   compile_commands.json
+|           |   |   config.env
+|           |   |   kconfigs.in
+|           |   |   kconfigs_projbuild.in
+|           |   |   project_description.json
+|           |   |   rules.ninja
+|           |   |   
+|           |   +---.cmake
+|           |   |   \---api
+|           |   |       \---v1
+|           |   |           +---query
+|           |   |           |       codemodel-v2
+|           |   |           |       
+|           |   |           \---reply
+|           |   |                   codemodel-v2-e1181ba00687436e2e85.json
+|           |   |                   index-2025-09-25T16-29-14-0650.json
+|           |   |                   target-app-36356b2c32e25bbf7775.json
+|           |   |                   target-bootloader.elf-c011ff2d66ef73c225b4.json
+|           |   |                   target-bootloader_check_size-45406dd42fd3b82c54aa.json
+|           |   |                   target-confserver-2683dd9372e1fda26afc.json
+|           |   |                   target-efuse-common-table-7f7d3adbe6d713e12aef.json
+|           |   |                   target-efuse-custom-table-889fb9c7e492e5be64d9.json
+|           |   |                   target-efuse_common_table-c99d24369a1aa2c76015.json
+|           |   |                   target-efuse_custom_table-255901469fc149eea14e.json
+|           |   |                   target-efuse_test_table-ba6e86b8964df94549bf.json
+|           |   |                   target-erase_flash-3d533f8cdd45d9e7031d.json
+|           |   |                   target-gen_project_binary-00846e027b53f9d435ac.json
+|           |   |                   target-menuconfig-f9a7ef45a700b466fac6.json
+|           |   |                   target-merge-bin-d7fda577138184cd843e.json
+|           |   |                   target-monitor-4bd59256445601671027.json
+|           |   |                   target-save-defconfig-f9d13f36327d50179e0a.json
+|           |   |                   target-show-efuse-table-c2cb096035f95392f162.json
+|           |   |                   target-show_efuse_table-2e01d531ad1ac58d62e7.json
+|           |   |                   target-size-5b3e7799b58775b9d327.json
+|           |   |                   target-size-components-4f1a074fc38c4d580d0b.json
+|           |   |                   target-size-files-9f137f765621ca0f5d8a.json
+|           |   |                   target-uf2-029a8a71aafa6836bfb3.json
+|           |   |                   target-uf2-app-1849bff3de536167a6ee.json
+|           |   |                   target-_project_elf_src-80299a6045a46e79fb43.json
+|           |   |                   target-__idf_bootloader_support-4274e9b2007b8417c52d.json
+|           |   |                   target-__idf_efuse-203e41c947da0b9affb7.json
+|           |   |                   target-__idf_esp_bootloader_format-71b28bd0937edd4f4323.json
+|           |   |                   target-__idf_esp_common-327ab0a1d2a23dd47042.json
+|           |   |                   target-__idf_esp_hw_support-6cdf4d834c559558a484.json
+|           |   |                   target-__idf_esp_rom-3b50e865d5dd0c0c7015.json
+|           |   |                   target-__idf_esp_system-d269a5b00b0a93a77e03.json
+|           |   |                   target-__idf_hal-7140092aafe4270a8a3a.json
+|           |   |                   target-__idf_log-9155fc2d5c0fa8564cc8.json
+|           |   |                   target-__idf_main-ff7dd8dc35840f1f5cfa.json
+|           |   |                   target-__idf_micro-ecc-2f1bacb6931784c79c13.json
+|           |   |                   target-__idf_soc-c922830c220cd6d99eff.json
+|           |   |                   target-__idf_spi_flash-a93d1cac469d69ba0eec.json
+|           |   |                   target-__idf_xtensa-7c3455539b5729e69587.json
+|           |   |                   
+|           |   +---bootloader_support
+|           |   |   +---bootloader_flash
+|           |   |   |   \---src
+|           |   |   |           bootloader_flash.c.o
+|           |   |   |           bootloader_flash_config_esp32.c.o
+|           |   |   |           flash_qio_mode.c.o
+|           |   |   |           
+|           |   |   \---src
+|           |   |       |   bootloader_clock_init.c.o
+|           |   |       |   bootloader_clock_loader.c.o
+|           |   |       |   bootloader_common.c.o
+|           |   |       |   bootloader_common_loader.c.o
+|           |   |       |   bootloader_console.c.o
+|           |   |       |   bootloader_console_loader.c.o
+|           |   |       |   bootloader_efuse.c.o
+|           |   |       |   bootloader_init.c.o
+|           |   |       |   bootloader_mem.c.o
+|           |   |       |   bootloader_panic.c.o
+|           |   |       |   bootloader_random.c.o
+|           |   |       |   bootloader_random_esp32.c.o
+|           |   |       |   bootloader_utility.c.o
+|           |   |       |   esp_image_format.c.o
+|           |   |       |   flash_encrypt.c.o
+|           |   |       |   flash_partitions.c.o
+|           |   |       |   secure_boot.c.o
+|           |   |       |   
+|           |   |       \---esp32
+|           |   |               bootloader_esp32.c.o
+|           |   |               bootloader_sha.c.o
+|           |   |               bootloader_soc.c.o
+|           |   |               
+|           |   +---CMakeFiles
+|           |   |   |   clean_additional.cmake
+|           |   |   |   cmake.check_cache
+|           |   |   |   CMakeOutput.log
+|           |   |   |   TargetDirectories.txt
+|           |   |   |   
+|           |   |   +---3.16.4
+|           |   |   |   |   CMakeASMCompiler.cmake
+|           |   |   |   |   CMakeCCompiler.cmake
+|           |   |   |   |   CMakeCXXCompiler.cmake
+|           |   |   |   |   CMakeDetermineCompilerABI_C.bin
+|           |   |   |   |   CMakeDetermineCompilerABI_CXX.bin
+|           |   |   |   |   CMakeSystem.cmake
+|           |   |   |   |   
+|           |   |   |   +---CompilerIdASM
+|           |   |   |   +---CompilerIdC
+|           |   |   |   |   |   a.out
+|           |   |   |   |   |   CMakeCCompilerId.c
+|           |   |   |   |   |   
+|           |   |   |   |   \---tmp
+|           |   |   |   \---CompilerIdCXX
+|           |   |   |       |   a.out
+|           |   |   |       |   CMakeCXXCompilerId.cpp
+|           |   |   |       |   
+|           |   |   |       \---tmp
+|           |   |   +---bootloader.elf.dir
+|           |   |   \---CMakeTmp
+|           |   +---components
+|           |   |   \---micro-ecc
+|           |   |           uECC_verify_antifault.c.o
+|           |   |           
+|           |   +---config
+|           |   |       kconfig_menus.json
+|           |   |       sdkconfig.cmake
+|           |   |       sdkconfig.h
+|           |   |       sdkconfig.json
+|           |   |       
+|           |   +---efuse
+|           |   |   +---esp32
+|           |   |   |       esp_efuse_fields.c.o
+|           |   |   |       esp_efuse_table.c.o
+|           |   |   |       esp_efuse_utility.c.o
+|           |   |   |       
+|           |   |   \---src
+|           |   |       |   esp_efuse_api.c.o
+|           |   |       |   esp_efuse_fields.c.o
+|           |   |       |   esp_efuse_utility.c.o
+|           |   |       |   
+|           |   |       \---efuse_controller
+|           |   |           \---keys
+|           |   |               \---without_key_purposes
+|           |   |                   \---three_key_blocks
+|           |   |                           esp_efuse_api_key.c.o
+|           |   |                           
+|           |   +---esp-idf
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   +---bootloader
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   +---bootloader_support
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libbootloader_support.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_bootloader_support.dir
+|           |   |   |           +---bootloader_flash
+|           |   |   |           |   \---src
+|           |   |   |           \---src
+|           |   |   |               \---esp32
+|           |   |   +---CMakeFiles
+|           |   |   +---efuse
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libefuse.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_efuse.dir
+|           |   |   |           +---esp32
+|           |   |   |           \---src
+|           |   |   |               \---efuse_controller
+|           |   |   |                   \---keys
+|           |   |   |                       \---without_key_purposes
+|           |   |   |                           \---three_key_blocks
+|           |   |   +---esptool_py
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   +---esp_app_format
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   +---esp_bootloader_format
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libesp_bootloader_format.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_esp_bootloader_format.dir
+|           |   |   +---esp_common
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libesp_common.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_esp_common.dir
+|           |   |   |           \---src
+|           |   |   +---esp_hw_support
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libesp_hw_support.a
+|           |   |   |   |   
+|           |   |   |   +---CMakeFiles
+|           |   |   |   |   \---__idf_esp_hw_support.dir
+|           |   |   |   |       \---port
+|           |   |   |   |           \---esp32
+|           |   |   |   +---lowpower
+|           |   |   |   |   |   cmake_install.cmake
+|           |   |   |   |   |   
+|           |   |   |   |   \---CMakeFiles
+|           |   |   |   \---port
+|           |   |   |       \---esp32
+|           |   |   |           |   cmake_install.cmake
+|           |   |   |           |   
+|           |   |   |           \---CMakeFiles
+|           |   |   +---esp_rom
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libesp_rom.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_esp_rom.dir
+|           |   |   |           \---patches
+|           |   |   +---esp_security
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   +---esp_system
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libesp_system.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_esp_system.dir
+|           |   |   +---freertos
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   +---hal
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libhal.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_hal.dir
+|           |   |   |           \---esp32
+|           |   |   +---log
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   liblog.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_log.dir
+|           |   |   |           \---src
+|           |   |   |               \---noos
+|           |   |   +---main
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libmain.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_main.dir
+|           |   |   +---micro-ecc
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libmicro-ecc.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_micro-ecc.dir
+|           |   |   +---newlib
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   +---partition_table
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   +---soc
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libsoc.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_soc.dir
+|           |   |   |           \---esp32
+|           |   |   +---spi_flash
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   libspi_flash.a
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   |       \---__idf_spi_flash.dir
+|           |   |   \---xtensa
+|           |   |       |   cmake_install.cmake
+|           |   |       |   libxtensa.a
+|           |   |       |   
+|           |   |       \---CMakeFiles
+|           |   |           \---__idf_xtensa.dir
+|           |   +---esp_bootloader_format
+|           |   |       esp_bootloader_desc.c.o
+|           |   |       
+|           |   +---esp_common
+|           |   |   \---src
+|           |   |           esp_err_to_name.c.o
+|           |   |           
+|           |   +---esp_hw_support
+|           |   |   |   cpu.c.o
+|           |   |   |   esp_memory_utils.c.o
+|           |   |   |   
+|           |   |   \---port
+|           |   |       \---esp32
+|           |   |               chip_info.c.o
+|           |   |               cpu_region_protect.c.o
+|           |   |               esp_cpu_intr.c.o
+|           |   |               rtc_clk.c.o
+|           |   |               rtc_clk_init.c.o
+|           |   |               rtc_init.c.o
+|           |   |               rtc_sleep.c.o
+|           |   |               rtc_time.c.o
+|           |   |               
+|           |   +---esp_rom
+|           |   |   \---patches
+|           |   |           esp_rom_crc.c.o
+|           |   |           esp_rom_efuse.c.o
+|           |   |           esp_rom_gpio.c.o
+|           |   |           esp_rom_longjmp.S.o
+|           |   |           esp_rom_print.c.o
+|           |   |           esp_rom_spiflash.c.o
+|           |   |           esp_rom_sys.c.o
+|           |   |           esp_rom_uart.c.o
+|           |   |           
+|           |   +---esp_system
+|           |   |       esp_err.c.o
+|           |   |       
+|           |   +---hal
+|           |   |   |   efuse_hal.c.o
+|           |   |   |   hal_utils.c.o
+|           |   |   |   mmu_hal.c.o
+|           |   |   |   mpu_hal.c.o
+|           |   |   |   wdt_hal_iram.c.o
+|           |   |   |   
+|           |   |   \---esp32
+|           |   |           cache_hal_esp32.c.o
+|           |   |           efuse_hal.c.o
+|           |   |           
+|           |   +---log
+|           |   |   \---src
+|           |   |       |   log_timestamp_common.c.o
+|           |   |       |   
+|           |   |       \---noos
+|           |   |               log_lock.c.o
+|           |   |               log_timestamp.c.o
+|           |   |               
+|           |   +---main
+|           |   |       bootloader_start.c.o
+|           |   |       
+|           |   +---soc
+|           |   |   |   dport_access_common.c.o
+|           |   |   |   lldesc.c.o
+|           |   |   |   
+|           |   |   \---esp32
+|           |   |           adc_periph.c.o
+|           |   |           dac_periph.c.o
+|           |   |           dport_access.c.o
+|           |   |           emac_periph.c.o
+|           |   |           gpio_periph.c.o
+|           |   |           i2c_periph.c.o
+|           |   |           i2s_periph.c.o
+|           |   |           interrupts.c.o
+|           |   |           lcd_periph.c.o
+|           |   |           ledc_periph.c.o
+|           |   |           mcpwm_periph.c.o
+|           |   |           mpi_periph.c.o
+|           |   |           pcnt_periph.c.o
+|           |   |           rmt_periph.c.o
+|           |   |           rtc_io_periph.c.o
+|           |   |           sdio_slave_periph.c.o
+|           |   |           sdmmc_periph.c.o
+|           |   |           sdm_periph.c.o
+|           |   |           spi_periph.c.o
+|           |   |           timer_periph.c.o
+|           |   |           touch_sensor_periph.c.o
+|           |   |           twai_periph.c.o
+|           |   |           uart_periph.c.o
+|           |   |           wdt_periph.c.o
+|           |   |           
+|           |   +---spi_flash
+|           |   |       spi_flash_wrap.c.o
+|           |   |       
+|           |   \---xtensa
+|           |           eri.c.o
+|           |           xt_trax.c.o
+|           |           
+|           +---bootloader-prefix
+|           |   +---src
+|           |   |   \---bootloader-stamp
+|           |   \---tmp
+|           |           bootloader-cfgcmd.txt
+|           |           bootloader-cfgcmd.txt.in
+|           |           
+|           +---bootloader_support
+|           |   +---bootloader_flash
+|           |   |   \---src
+|           |   |           bootloader_flash.c.o
+|           |   |           bootloader_flash_config_esp32.c.o
+|           |   |           flash_qio_mode.c.o
+|           |   |           
+|           |   \---src
+|           |       |   bootloader_clock_init.c.o
+|           |       |   bootloader_common.c.o
+|           |       |   bootloader_common_loader.c.o
+|           |       |   bootloader_efuse.c.o
+|           |       |   bootloader_mem.c.o
+|           |       |   bootloader_random.c.o
+|           |       |   bootloader_random_esp32.c.o
+|           |       |   bootloader_utility.c.o
+|           |       |   esp_image_format.c.o
+|           |       |   flash_encrypt.c.o
+|           |       |   flash_partitions.c.o
+|           |       |   secure_boot.c.o
+|           |       |   
+|           |       +---esp32
+|           |       |       secure_boot_secure_features.c.o
+|           |       |       
+|           |       \---idf
+|           |               bootloader_sha.c.o
+|           |               
+|           +---CMakeFiles
+|           |   |   clean_additional.cmake
+|           |   |   cmake.check_cache
+|           |   |   CMakeOutput.log
+|           |   |   TargetDirectories.txt
+|           |   |   
+|           |   +---3.16.4
+|           |   |   |   CMakeASMCompiler.cmake
+|           |   |   |   CMakeCCompiler.cmake
+|           |   |   |   CMakeCXXCompiler.cmake
+|           |   |   |   CMakeDetermineCompilerABI_C.bin
+|           |   |   |   CMakeDetermineCompilerABI_CXX.bin
+|           |   |   |   CMakeSystem.cmake
+|           |   |   |   
+|           |   |   +---CompilerIdASM
+|           |   |   +---CompilerIdC
+|           |   |   |   |   a.out
+|           |   |   |   |   CMakeCCompilerId.c
+|           |   |   |   |   
+|           |   |   |   \---tmp
+|           |   |   \---CompilerIdCXX
+|           |   |       |   a.out
+|           |   |       |   CMakeCXXCompilerId.cpp
+|           |   |       |   
+|           |   |       \---tmp
+|           |   +---bootloader.dir
+|           |   |       Labels.json
+|           |   |       Labels.txt
+|           |   |       
+|           |   +---CMakeTmp
+|           |   \---Teste_PlatIO_IDF.elf.dir
+|           +---cmock
+|           |   \---CMock
+|           |       \---src
+|           |               cmock.c.o
+|           |               
+|           +---config
+|           |       kconfig_menus.json
+|           |       sdkconfig.cmake
+|           |       sdkconfig.h
+|           |       sdkconfig.json
+|           |       
+|           +---console
+|           |   |   commands.c.o
+|           |   |   esp_console_common.c.o
+|           |   |   esp_console_repl_chip.c.o
+|           |   |   split_argv.c.o
+|           |   |   
+|           |   +---argtable3
+|           |   |       argtable3.c.o
+|           |   |       arg_cmd.c.o
+|           |   |       arg_date.c.o
+|           |   |       arg_dbl.c.o
+|           |   |       arg_dstr.c.o
+|           |   |       arg_end.c.o
+|           |   |       arg_file.c.o
+|           |   |       arg_hashtable.c.o
+|           |   |       arg_int.c.o
+|           |   |       arg_lit.c.o
+|           |   |       arg_rem.c.o
+|           |   |       arg_rex.c.o
+|           |   |       arg_str.c.o
+|           |   |       arg_utils.c.o
+|           |   |       
+|           |   \---linenoise
+|           |           linenoise.c.o
+|           |           
+|           +---cxx
+|           |       cxx_exception_stubs.cpp.o
+|           |       cxx_guards.cpp.o
+|           |       cxx_init.cpp.o
+|           |       
+|           +---driver
+|           |   +---deprecated
+|           |   |   |   adc_dma_legacy.c.o
+|           |   |   |   adc_i2s_deprecated.c.o
+|           |   |   |   adc_legacy.c.o
+|           |   |   |   dac_common_legacy.c.o
+|           |   |   |   i2s_legacy.c.o
+|           |   |   |   mcpwm_legacy.c.o
+|           |   |   |   pcnt_legacy.c.o
+|           |   |   |   rmt_legacy.c.o
+|           |   |   |   sigma_delta_legacy.c.o
+|           |   |   |   timer_legacy.c.o
+|           |   |   |   
+|           |   |   \---esp32
+|           |   |           dac_legacy.c.o
+|           |   |           
+|           |   +---i2c
+|           |   |       i2c.c.o
+|           |   |       
+|           |   +---touch_sensor
+|           |   |   |   touch_sensor_common.c.o
+|           |   |   |   
+|           |   |   \---esp32
+|           |   |           touch_sensor.c.o
+|           |   |           
+|           |   \---twai
+|           |           twai.c.o
+|           |           
+|           +---efuse
+|           |   +---esp32
+|           |   |       esp_efuse_fields.c.o
+|           |   |       esp_efuse_table.c.o
+|           |   |       esp_efuse_utility.c.o
+|           |   |       
+|           |   \---src
+|           |       |   esp_efuse_api.c.o
+|           |       |   esp_efuse_fields.c.o
+|           |       |   esp_efuse_startup.c.o
+|           |       |   esp_efuse_utility.c.o
+|           |       |   
+|           |       \---efuse_controller
+|           |           \---keys
+|           |               \---without_key_purposes
+|           |                   \---three_key_blocks
+|           |                           esp_efuse_api_key.c.o
+|           |                           
+|           +---esp-idf
+|           |   |   cmake_install.cmake
+|           |   |   
+|           |   +---app_trace
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libapp_trace.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_app_trace.dir
+|           |   |           \---port
+|           |   +---app_update
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libapp_update.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_app_update.dir
+|           |   +---bootloader
+|           |   |   |   bootloader-flash_args.in
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---bootloader_support
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libbootloader_support.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_bootloader_support.dir
+|           |   |           +---bootloader_flash
+|           |   |           |   \---src
+|           |   |           \---src
+|           |   |               +---esp32
+|           |   |               \---idf
+|           |   +---bt
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---CMakeFiles
+|           |   +---cmock
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libcmock.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_cmock.dir
+|           |   |           \---CMock
+|           |   |               \---src
+|           |   +---console
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libconsole.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_console.dir
+|           |   |           +---argtable3
+|           |   |           \---linenoise
+|           |   +---cxx
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libcxx.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_cxx.dir
+|           |   +---driver
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libdriver.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_driver.dir
+|           |   |           +---deprecated
+|           |   |           |   \---esp32
+|           |   |           +---i2c
+|           |   |           +---touch_sensor
+|           |   |           |   \---esp32
+|           |   |           \---twai
+|           |   +---efuse
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libefuse.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_efuse.dir
+|           |   |           +---esp32
+|           |   |           \---src
+|           |   |               \---efuse_controller
+|           |   |                   \---keys
+|           |   |                       \---without_key_purposes
+|           |   |                           \---three_key_blocks
+|           |   +---esp-tls
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp-tls.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp-tls.dir
+|           |   |           \---esp-tls-crypto
+|           |   +---espcoredump
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libespcoredump.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_espcoredump.dir
+|           |   |           \---src
+|           |   |               \---port
+|           |   |                   \---xtensa
+|           |   +---esptool_py
+|           |   |   |   app-flash_args.in
+|           |   |   |   cmake_install.cmake
+|           |   |   |   flasher_args.json.in
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_adc
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_adc.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_adc.dir
+|           |   |           +---deprecated
+|           |   |           |   \---esp32
+|           |   |           \---esp32
+|           |   +---esp_app_format
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_app_format.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_app_format.dir
+|           |   +---esp_bootloader_format
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_bootloader_format.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_bootloader_format.dir
+|           |   +---esp_coex
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_coex.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_coex.dir
+|           |   |           +---esp32
+|           |   |           \---src
+|           |   +---esp_common
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_common.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_common.dir
+|           |   |           \---src
+|           |   +---esp_driver_ana_cmpr
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_driver_cam
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_cam.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_cam.dir
+|           |   +---esp_driver_dac
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_dac.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_dac.dir
+|           |   |           \---esp32
+|           |   +---esp_driver_gpio
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_gpio.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_gpio.dir
+|           |   |           \---src
+|           |   +---esp_driver_gptimer
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_gptimer.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_gptimer.dir
+|           |   |           \---src
+|           |   +---esp_driver_i2c
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_i2c.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_i2c.dir
+|           |   +---esp_driver_i2s
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_i2s.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_i2s.dir
+|           |   +---esp_driver_isp
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_driver_jpeg
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_driver_ledc
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_ledc.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_ledc.dir
+|           |   |           \---src
+|           |   +---esp_driver_mcpwm
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_mcpwm.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_mcpwm.dir
+|           |   |           \---src
+|           |   +---esp_driver_parlio
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_driver_pcnt
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_pcnt.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_pcnt.dir
+|           |   |           \---src
+|           |   +---esp_driver_ppa
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_driver_rmt
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_rmt.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_rmt.dir
+|           |   |           \---src
+|           |   +---esp_driver_sdio
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_sdio.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_sdio.dir
+|           |   |           \---src
+|           |   +---esp_driver_sdm
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_sdm.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_sdm.dir
+|           |   |           \---src
+|           |   +---esp_driver_sdmmc
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_sdmmc.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_sdmmc.dir
+|           |   |           \---src
+|           |   +---esp_driver_sdspi
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_sdspi.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_sdspi.dir
+|           |   |           \---src
+|           |   +---esp_driver_spi
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_spi.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_spi.dir
+|           |   |           \---src
+|           |   |               \---gpspi
+|           |   +---esp_driver_touch_sens
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_driver_tsens
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_driver_uart
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_driver_uart.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_driver_uart.dir
+|           |   |           \---src
+|           |   +---esp_driver_usb_serial_jtag
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_eth
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_eth.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_eth.dir
+|           |   |           \---src
+|           |   |               +---mac
+|           |   |               \---phy
+|           |   +---esp_event
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_event.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_event.dir
+|           |   +---esp_gdbstub
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_gdbstub.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_gdbstub.dir
+|           |   |           \---src
+|           |   |               \---port
+|           |   |                   \---xtensa
+|           |   +---esp_hid
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_hid.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_hid.dir
+|           |   |           \---src
+|           |   +---esp_https_ota
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_https_ota.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_https_ota.dir
+|           |   |           \---src
+|           |   +---esp_https_server
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_https_server.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_https_server.dir
+|           |   |           \---src
+|           |   +---esp_http_client
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_http_client.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_http_client.dir
+|           |   |           \---lib
+|           |   +---esp_http_server
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_http_server.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_http_server.dir
+|           |   |           \---src
+|           |   |               \---util
+|           |   +---esp_hw_support
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_hw_support.a
+|           |   |   |   
+|           |   |   +---CMakeFiles
+|           |   |   |   \---__idf_esp_hw_support.dir
+|           |   |   |       +---dma
+|           |   |   |       \---port
+|           |   |   |           \---esp32
+|           |   |   +---lowpower
+|           |   |   |   |   cmake_install.cmake
+|           |   |   |   |   
+|           |   |   |   \---CMakeFiles
+|           |   |   \---port
+|           |   |       \---esp32
+|           |   |           |   cmake_install.cmake
+|           |   |           |   
+|           |   |           \---CMakeFiles
+|           |   +---esp_lcd
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_lcd.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_lcd.dir
+|           |   |           +---i2c
+|           |   |           +---i80
+|           |   |           +---spi
+|           |   |           \---src
+|           |   +---esp_local_ctrl
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_local_ctrl.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_local_ctrl.dir
+|           |   |           +---proto-c
+|           |   |           \---src
+|           |   +---esp_mm
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_mm.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_mm.dir
+|           |   |           \---port
+|           |   |               \---esp32
+|           |   +---esp_netif
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_netif.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_netif.dir
+|           |   |           \---lwip
+|           |   |               \---netif
+|           |   +---esp_netif_stack
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_partition
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_partition.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_partition.dir
+|           |   +---esp_phy
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_phy.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_phy.dir
+|           |   |           +---esp32
+|           |   |           \---src
+|           |   +---esp_pm
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_pm.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_pm.dir
+|           |   +---esp_psram
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---esp_ringbuf
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_ringbuf.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_ringbuf.dir
+|           |   +---esp_rom
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_rom.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_rom.dir
+|           |   |           \---patches
+|           |   +---esp_security
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_security.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_security.dir
+|           |   |           \---src
+|           |   +---esp_system
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_system.a
+|           |   |   |   
+|           |   |   +---CMakeFiles
+|           |   |   |   |   sections.ld-d65dc84.bat
+|           |   |   |   |   
+|           |   |   |   \---__idf_esp_system.dir
+|           |   |   |       +---port
+|           |   |   |       |   +---arch
+|           |   |   |       |   |   \---xtensa
+|           |   |   |       |   \---soc
+|           |   |   |       |       \---esp32
+|           |   |   |       \---task_wdt
+|           |   |   +---ld
+|           |   |   |       linker_script_generator.cmake
+|           |   |   |       memory.ld.in
+|           |   |   |       sections.ld.in
+|           |   |   |       
+|           |   |   \---port
+|           |   |       |   cmake_install.cmake
+|           |   |       |   
+|           |   |       +---CMakeFiles
+|           |   |       \---soc
+|           |   |           \---esp32
+|           |   |               |   cmake_install.cmake
+|           |   |               |   
+|           |   |               \---CMakeFiles
+|           |   +---esp_timer
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_timer.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_timer.dir
+|           |   |           \---src
+|           |   +---esp_vfs_console
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_vfs_console.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_vfs_console.dir
+|           |   +---esp_wifi
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libesp_wifi.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_esp_wifi.dir
+|           |   |           +---esp32
+|           |   |           \---src
+|           |   +---fatfs
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libfatfs.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_fatfs.dir
+|           |   |           +---diskio
+|           |   |           +---port
+|           |   |           |   \---freertos
+|           |   |           +---src
+|           |   |           \---vfs
+|           |   +---freertos
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libfreertos.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_freertos.dir
+|           |   |           +---esp_additions
+|           |   |           \---FreeRTOS-Kernel
+|           |   |               \---portable
+|           |   |                   \---xtensa
+|           |   +---hal
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libhal.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_hal.dir
+|           |   |           \---esp32
+|           |   +---heap
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libheap.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_heap.dir
+|           |   |           +---port
+|           |   |           |   \---esp32
+|           |   |           \---tlsf
+|           |   +---http_parser
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libhttp_parser.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_http_parser.dir
+|           |   +---idf_test
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---ieee802154
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---json
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libjson.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_json.dir
+|           |   |           \---cJSON
+|           |   +---log
+|           |   |   |   cmake_install.cmake
+|           |   |   |   liblog.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_log.dir
+|           |   |           \---src
+|           |   |               +---buffer
+|           |   |               +---log_level
+|           |   |               |   \---tag_log_level
+|           |   |               |       +---cache
+|           |   |               |       \---linked_list
+|           |   |               \---os
+|           |   +---lwip
+|           |   |   |   cmake_install.cmake
+|           |   |   |   liblwip.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_lwip.dir
+|           |   |           +---apps
+|           |   |           |   +---dhcpserver
+|           |   |           |   +---ping
+|           |   |           |   \---sntp
+|           |   |           +---lwip
+|           |   |           |   \---src
+|           |   |           |       +---api
+|           |   |           |       +---apps
+|           |   |           |       |   +---netbiosns
+|           |   |           |       |   \---sntp
+|           |   |           |       +---core
+|           |   |           |       |   +---ipv4
+|           |   |           |       |   \---ipv6
+|           |   |           |       \---netif
+|           |   |           |           \---ppp
+|           |   |           |               \---polarssl
+|           |   |           \---port
+|           |   |               +---debug
+|           |   |               +---esp32xx
+|           |   |               +---freertos
+|           |   |               \---hooks
+|           |   +---mbedtls
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libmbedtls.a
+|           |   |   |   
+|           |   |   +---CMakeFiles
+|           |   |   |   \---__idf_mbedtls.dir
+|           |   |   |       +---esp_crt_bundle
+|           |   |   |       \---__
+|           |   |   |           \---__
+|           |   |   \---mbedtls
+|           |   |       |   cmake_install.cmake
+|           |   |       |   
+|           |   |       +---3rdparty
+|           |   |       |   |   cmake_install.cmake
+|           |   |       |   |   
+|           |   |       |   +---CMakeFiles
+|           |   |       |   +---everest
+|           |   |       |   |   |   cmake_install.cmake
+|           |   |       |   |   |   libeverest.a
+|           |   |       |   |   |   
+|           |   |       |   |   \---CMakeFiles
+|           |   |       |   |       \---everest.dir
+|           |   |       |   |           \---library
+|           |   |       |   \---p256-m
+|           |   |       |       |   cmake_install.cmake
+|           |   |       |       |   libp256m.a
+|           |   |       |       |   
+|           |   |       |       \---CMakeFiles
+|           |   |       |           \---p256m.dir
+|           |   |       |               \---p256-m
+|           |   |       +---CMakeFiles
+|           |   |       +---include
+|           |   |       |   |   cmake_install.cmake
+|           |   |       |   |   
+|           |   |       |   \---CMakeFiles
+|           |   |       +---library
+|           |   |       |   |   cmake_install.cmake
+|           |   |       |   |   error.c
+|           |   |       |   |   libmbedcrypto.a
+|           |   |       |   |   libmbedtls.a
+|           |   |       |   |   libmbedx509.a
+|           |   |       |   |   psa_crypto_driver_wrappers_no_static.c
+|           |   |       |   |   ssl_debug_helpers_generated.c
+|           |   |       |   |   version_features.c
+|           |   |       |   |   
+|           |   |       |   \---CMakeFiles
+|           |   |       |       +---mbedcrypto.dir
+|           |   |       |       |   \---__
+|           |   |       |       |       \---__
+|           |   |       |       |           \---port
+|           |   |       |       |               +---aes
+|           |   |       |       |               |   \---block
+|           |   |       |       |               +---bignum
+|           |   |       |       |               +---md
+|           |   |       |       |               \---sha
+|           |   |       |       |                   \---parallel_engine
+|           |   |       |       +---mbedtls.dir
+|           |   |       |       |   \---__
+|           |   |       |       |       \---__
+|           |   |       |       |           \---port
+|           |   |       |       \---mbedx509.dir
+|           |   |       \---pkgconfig
+|           |   |           |   cmake_install.cmake
+|           |   |           |   
+|           |   |           \---CMakeFiles
+|           |   +---mqtt
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libmqtt.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_mqtt.dir
+|           |   |           \---esp-mqtt
+|           |   |               \---lib
+|           |   +---newlib
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libnewlib.a
+|           |   |   |   
+|           |   |   +---CMakeFiles
+|           |   |   |   \---__idf_newlib.dir
+|           |   |   |       \---port
+|           |   |   \---port
+|           |   |       |   cmake_install.cmake
+|           |   |       |   
+|           |   |       \---CMakeFiles
+|           |   +---nvs_flash
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libnvs_flash.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_nvs_flash.dir
+|           |   |           \---src
+|           |   +---nvs_sec_provider
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libnvs_sec_provider.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_nvs_sec_provider.dir
+|           |   +---openthread
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---partition_table
+|           |   |   |   cmake_install.cmake
+|           |   |   |   partition-table-flash_args.in
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---perfmon
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libperfmon.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_perfmon.dir
+|           |   +---protobuf-c
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libprotobuf-c.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_protobuf-c.dir
+|           |   |           \---protobuf-c
+|           |   |               \---protobuf-c
+|           |   +---protocomm
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libprotocomm.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_protocomm.dir
+|           |   |           +---proto-c
+|           |   |           \---src
+|           |   |               +---common
+|           |   |               +---crypto
+|           |   |               |   \---srp6a
+|           |   |               +---security
+|           |   |               \---transports
+|           |   +---pthread
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libpthread.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_pthread.dir
+|           |   +---rt
+|           |   |   |   cmake_install.cmake
+|           |   |   |   librt.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_rt.dir
+|           |   +---sdmmc
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libsdmmc.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_sdmmc.dir
+|           |   |           \---sd_pwr_ctrl
+|           |   +---soc
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libsoc.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_soc.dir
+|           |   |           \---esp32
+|           |   +---spiffs
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libspiffs.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_spiffs.dir
+|           |   |           \---spiffs
+|           |   |               \---src
+|           |   +---spi_flash
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libspi_flash.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_spi_flash.dir
+|           |   +---src
+|           |   |   |   cmake_install.cmake
+|           |   |   |   spiffs-flash_args.in
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_src.dir
+|           |   +---tcp_transport
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libtcp_transport.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_tcp_transport.dir
+|           |   +---ulp
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---unity
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libunity.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_unity.dir
+|           |   |           +---port
+|           |   |           |   \---esp
+|           |   |           \---unity
+|           |   |               \---src
+|           |   +---usb
+|           |   |   |   cmake_install.cmake
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   +---vfs
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libvfs.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_vfs.dir
+|           |   +---wear_levelling
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libwear_levelling.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_wear_levelling.dir
+|           |   +---wifi_provisioning
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libwifi_provisioning.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_wifi_provisioning.dir
+|           |   |           +---proto-c
+|           |   |           \---src
+|           |   +---wpa_supplicant
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libwpa_supplicant.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_wpa_supplicant.dir
+|           |   |           +---esp_supplicant
+|           |   |           |   \---src
+|           |   |           |       \---crypto
+|           |   |           +---port
+|           |   |           \---src
+|           |   |               +---ap
+|           |   |               +---common
+|           |   |               +---crypto
+|           |   |               +---eap_common
+|           |   |               +---eap_peer
+|           |   |               +---rsn_supp
+|           |   |               +---utils
+|           |   |               \---wps
+|           |   +---xtensa
+|           |   |   |   cmake_install.cmake
+|           |   |   |   libxtensa.a
+|           |   |   |   
+|           |   |   \---CMakeFiles
+|           |   |       \---__idf_xtensa.dir
+|           |   \---__pio_env
+|           |       |   cmake_install.cmake
+|           |       |   
+|           |       \---CMakeFiles
+|           |           \---__idf___pio_env.dir
+|           +---esp-tls
+|           |   |   esp_tls.c.o
+|           |   |   esp_tls_error_capture.c.o
+|           |   |   esp_tls_mbedtls.c.o
+|           |   |   esp_tls_platform_port.c.o
+|           |   |   
+|           |   \---esp-tls-crypto
+|           |           esp_tls_crypto.c.o
+|           |           
+|           +---espcoredump
+|           |   \---src
+|           |       |   core_dump_binary.c.o
+|           |       |   core_dump_common.c.o
+|           |       |   core_dump_crc.c.o
+|           |       |   core_dump_elf.c.o
+|           |       |   core_dump_flash.c.o
+|           |       |   core_dump_init.c.o
+|           |       |   core_dump_sha.c.o
+|           |       |   core_dump_uart.c.o
+|           |       |   
+|           |       \---port
+|           |           \---xtensa
+|           |                   core_dump_port.c.o
+|           |                   
+|           +---esp_adc
+|           |   |   adc_cali.c.o
+|           |   |   adc_cali_curve_fitting.c.o
+|           |   |   adc_common.c.o
+|           |   |   adc_continuous.c.o
+|           |   |   adc_oneshot.c.o
+|           |   |   
+|           |   +---deprecated
+|           |   |   |   esp_adc_cal_common_legacy.c.o
+|           |   |   |   
+|           |   |   \---esp32
+|           |   |           esp_adc_cal_legacy.c.o
+|           |   |           
+|           |   \---esp32
+|           |           adc_cali_line_fitting.c.o
+|           |           adc_dma.c.o
+|           |           
+|           +---esp_app_format
+|           |       esp_app_desc.c.o
+|           |       
+|           +---esp_bootloader_format
+|           |       esp_bootloader_desc.c.o
+|           |       
+|           +---esp_coex
+|           |   +---esp32
+|           |   |       esp_coex_adapter.c.o
+|           |   |       
+|           |   \---src
+|           |           coexist_debug.c.o
+|           |           coexist_debug_diagram.c.o
+|           |           
+|           +---esp_common
+|           |   \---src
+|           |           esp_err_to_name.c.o
+|           |           
+|           +---esp_driver_cam
+|           |       dvp_share_ctrl.c.o
+|           |       esp_cam_ctlr.c.o
+|           |       
+|           +---esp_driver_dac
+|           |   |   dac_common.c.o
+|           |   |   dac_continuous.c.o
+|           |   |   dac_cosine.c.o
+|           |   |   dac_oneshot.c.o
+|           |   |   
+|           |   \---esp32
+|           |           dac_dma.c.o
+|           |           
+|           +---esp_driver_gpio
+|           |   \---src
+|           |           gpio.c.o
+|           |           gpio_glitch_filter_ops.c.o
+|           |           rtc_io.c.o
+|           |           
+|           +---esp_driver_gptimer
+|           |   \---src
+|           |           gptimer.c.o
+|           |           gptimer_common.c.o
+|           |           
+|           +---esp_driver_i2c
+|           |       i2c_common.c.o
+|           |       i2c_master.c.o
+|           |       i2c_slave.c.o
+|           |       
+|           +---esp_driver_i2s
+|           |       i2s_common.c.o
+|           |       i2s_pdm.c.o
+|           |       i2s_platform.c.o
+|           |       i2s_std.c.o
+|           |       
+|           +---esp_driver_ledc
+|           |   \---src
+|           |           ledc.c.o
+|           |           
+|           +---esp_driver_mcpwm
+|           |   \---src
+|           |           mcpwm_cap.c.o
+|           |           mcpwm_cmpr.c.o
+|           |           mcpwm_com.c.o
+|           |           mcpwm_fault.c.o
+|           |           mcpwm_gen.c.o
+|           |           mcpwm_oper.c.o
+|           |           mcpwm_sync.c.o
+|           |           mcpwm_timer.c.o
+|           |           
+|           +---esp_driver_pcnt
+|           |   \---src
+|           |           pulse_cnt.c.o
+|           |           
+|           +---esp_driver_rmt
+|           |   \---src
+|           |           rmt_common.c.o
+|           |           rmt_encoder.c.o
+|           |           rmt_rx.c.o
+|           |           rmt_tx.c.o
+|           |           
+|           +---esp_driver_sdio
+|           |   \---src
+|           |           sdio_slave.c.o
+|           |           
+|           +---esp_driver_sdm
+|           |   \---src
+|           |           sdm.c.o
+|           |           
+|           +---esp_driver_sdmmc
+|           |   \---src
+|           |           sdmmc_host.c.o
+|           |           sdmmc_transaction.c.o
+|           |           
+|           +---esp_driver_sdspi
+|           |   \---src
+|           |           sdspi_crc.c.o
+|           |           sdspi_host.c.o
+|           |           sdspi_transaction.c.o
+|           |           
+|           +---esp_driver_spi
+|           |   \---src
+|           |       \---gpspi
+|           |               spi_common.c.o
+|           |               spi_dma.c.o
+|           |               spi_master.c.o
+|           |               spi_slave.c.o
+|           |               
+|           +---esp_driver_uart
+|           |   \---src
+|           |           uart.c.o
+|           |           uart_vfs.c.o
+|           |           
+|           +---esp_eth
+|           |   \---src
+|           |       |   esp_eth.c.o
+|           |       |   esp_eth_netif_glue.c.o
+|           |       |   
+|           |       +---mac
+|           |       |       esp_eth_mac_esp.c.o
+|           |       |       esp_eth_mac_esp_dma.c.o
+|           |       |       esp_eth_mac_esp_gpio.c.o
+|           |       |       
+|           |       \---phy
+|           |               esp_eth_phy_802_3.c.o
+|           |               esp_eth_phy_dp83848.c.o
+|           |               esp_eth_phy_generic.c.o
+|           |               esp_eth_phy_ip101.c.o
+|           |               esp_eth_phy_ksz80xx.c.o
+|           |               esp_eth_phy_lan87xx.c.o
+|           |               esp_eth_phy_rtl8201.c.o
+|           |               
+|           +---esp_event
+|           |       default_event_loop.c.o
+|           |       esp_event.c.o
+|           |       esp_event_private.c.o
+|           |       
+|           +---esp_gdbstub
+|           |   \---src
+|           |       |   gdbstub.c.o
+|           |       |   gdbstub_transport.c.o
+|           |       |   packet.c.o
+|           |       |   
+|           |       \---port
+|           |           \---xtensa
+|           |                   gdbstub-entry.S.o
+|           |                   gdbstub_xtensa.c.o
+|           |                   xt_debugexception.S.o
+|           |                   
+|           +---esp_hid
+|           |   \---src
+|           |           esp_hidd.c.o
+|           |           esp_hidh.c.o
+|           |           esp_hid_common.c.o
+|           |           
+|           +---esp_https_ota
+|           |   \---src
+|           |           esp_https_ota.c.o
+|           |           
+|           +---esp_https_server
+|           |   \---src
+|           |           https_server.c.o
+|           |           
+|           +---esp_http_client
+|           |   |   esp_http_client.c.o
+|           |   |   
+|           |   \---lib
+|           |           http_auth.c.o
+|           |           http_header.c.o
+|           |           http_utils.c.o
+|           |           
+|           +---esp_http_server
+|           |   \---src
+|           |       |   httpd_main.c.o
+|           |       |   httpd_parse.c.o
+|           |       |   httpd_sess.c.o
+|           |       |   httpd_txrx.c.o
+|           |       |   httpd_uri.c.o
+|           |       |   httpd_ws.c.o
+|           |       |   
+|           |       \---util
+|           |               ctrl_sock.c.o
+|           |               
+|           +---esp_hw_support
+|           |   |   adc_share_hw_ctrl.c.o
+|           |   |   clk_ctrl_os.c.o
+|           |   |   cpu.c.o
+|           |   |   esp_clk.c.o
+|           |   |   esp_clock_output.c.o
+|           |   |   esp_gpio_reserve.c.o
+|           |   |   esp_memory_utils.c.o
+|           |   |   hw_random.c.o
+|           |   |   intr_alloc.c.o
+|           |   |   mac_addr.c.o
+|           |   |   mspi_timing_tuning.c.o
+|           |   |   periph_ctrl.c.o
+|           |   |   regi2c_ctrl.c.o
+|           |   |   revision.c.o
+|           |   |   rtc_module.c.o
+|           |   |   rtc_wdt.c.o
+|           |   |   sar_periph_ctrl_common.c.o
+|           |   |   sleep_console.c.o
+|           |   |   sleep_event.c.o
+|           |   |   sleep_gpio.c.o
+|           |   |   sleep_modem.c.o
+|           |   |   sleep_modes.c.o
+|           |   |   sleep_wake_stub.c.o
+|           |   |   spi_bus_lock.c.o
+|           |   |   spi_share_hw_ctrl.c.o
+|           |   |   
+|           |   +---dma
+|           |   |       esp_dma_utils.c.o
+|           |   |       gdma_link.c.o
+|           |   |       
+|           |   \---port
+|           |       |   esp_clk_tree_common.c.o
+|           |       |   
+|           |       \---esp32
+|           |               cache_sram_mmu.c.o
+|           |               chip_info.c.o
+|           |               cpu_region_protect.c.o
+|           |               esp_clk_tree.c.o
+|           |               esp_cpu_intr.c.o
+|           |               io_mux.c.o
+|           |               rtc_clk.c.o
+|           |               rtc_clk_init.c.o
+|           |               rtc_init.c.o
+|           |               rtc_sleep.c.o
+|           |               rtc_time.c.o
+|           |               sar_periph_ctrl.c.o
+|           |               
+|           +---esp_lcd
+|           |   +---i2c
+|           |   |       esp_lcd_panel_io_i2c_v1.c.o
+|           |   |       esp_lcd_panel_io_i2c_v2.c.o
+|           |   |       
+|           |   +---i80
+|           |   |       esp_lcd_panel_io_i2s.c.o
+|           |   |       
+|           |   +---spi
+|           |   |       esp_lcd_panel_io_spi.c.o
+|           |   |       
+|           |   \---src
+|           |           esp_lcd_common.c.o
+|           |           esp_lcd_panel_io.c.o
+|           |           esp_lcd_panel_nt35510.c.o
+|           |           esp_lcd_panel_ops.c.o
+|           |           esp_lcd_panel_ssd1306.c.o
+|           |           esp_lcd_panel_st7789.c.o
+|           |           
+|           +---esp_local_ctrl
+|           |   +---proto-c
+|           |   |       esp_local_ctrl.pb-c.c.o
+|           |   |       
+|           |   \---src
+|           |           esp_local_ctrl.c.o
+|           |           esp_local_ctrl_handler.c.o
+|           |           esp_local_ctrl_transport_httpd.c.o
+|           |           
+|           +---esp_mm
+|           |   |   cache_esp32.c.o
+|           |   |   esp_cache.c.o
+|           |   |   esp_mmu_map.c.o
+|           |   |   heap_align_hw.c.o
+|           |   |   
+|           |   \---port
+|           |       \---esp32
+|           |               ext_mem_layout.c.o
+|           |               
+|           +---esp_netif
+|           |   |   esp_netif_defaults.c.o
+|           |   |   esp_netif_handlers.c.o
+|           |   |   esp_netif_objects.c.o
+|           |   |   
+|           |   \---lwip
+|           |       |   esp_netif_lwip.c.o
+|           |       |   esp_netif_lwip_defaults.c.o
+|           |       |   esp_netif_sntp.c.o
+|           |       |   
+|           |       \---netif
+|           |               esp_pbuf_ref.c.o
+|           |               ethernetif.c.o
+|           |               wlanif.c.o
+|           |               
+|           +---esp_partition
+|           |       partition.c.o
+|           |       partition_target.c.o
+|           |       
+|           +---esp_phy
+|           |   +---esp32
+|           |   |       phy_init_data.c.o
+|           |   |       
+|           |   \---src
+|           |           btbb_init.c.o
+|           |           lib_printf.c.o
+|           |           phy_common.c.o
+|           |           phy_init.c.o
+|           |           phy_override.c.o
+|           |           
+|           +---esp_pm
+|           |       pm_impl.c.o
+|           |       pm_locks.c.o
+|           |       pm_trace.c.o
+|           |       
+|           +---esp_ringbuf
+|           |       ringbuf.c.o
+|           |       
+|           +---esp_rom
+|           |   \---patches
+|           |           esp_rom_crc.c.o
+|           |           esp_rom_efuse.c.o
+|           |           esp_rom_gpio.c.o
+|           |           esp_rom_longjmp.S.o
+|           |           esp_rom_print.c.o
+|           |           esp_rom_spiflash.c.o
+|           |           esp_rom_sys.c.o
+|           |           esp_rom_uart.c.o
+|           |           
+|           +---esp_security
+|           |   \---src
+|           |           esp_crypto_lock.c.o
+|           |           init.c.o
+|           |           
+|           +---esp_system
+|           |   |   crosscore_int.c.o
+|           |   |   esp_err.c.o
+|           |   |   esp_ipc.c.o
+|           |   |   esp_system.c.o
+|           |   |   freertos_hooks.c.o
+|           |   |   int_wdt.c.o
+|           |   |   panic.c.o
+|           |   |   stack_check.c.o
+|           |   |   startup.c.o
+|           |   |   startup_funcs.c.o
+|           |   |   system_time.c.o
+|           |   |   ubsan.c.o
+|           |   |   xt_wdt.c.o
+|           |   |   
+|           |   +---port
+|           |   |   |   brownout.c.o
+|           |   |   |   cpu_start.c.o
+|           |   |   |   esp_ipc_isr.c.o
+|           |   |   |   esp_system_chip.c.o
+|           |   |   |   image_process.c.o
+|           |   |   |   panic_handler.c.o
+|           |   |   |   
+|           |   |   +---arch
+|           |   |   |   \---xtensa
+|           |   |   |           debug_helpers.c.o
+|           |   |   |           debug_helpers_asm.S.o
+|           |   |   |           debug_stubs.c.o
+|           |   |   |           esp_ipc_isr_handler.S.o
+|           |   |   |           esp_ipc_isr_port.c.o
+|           |   |   |           esp_ipc_isr_routines.S.o
+|           |   |   |           expression_with_stack.c.o
+|           |   |   |           expression_with_stack_asm.S.o
+|           |   |   |           panic_arch.c.o
+|           |   |   |           panic_handler_asm.S.o
+|           |   |   |           trax.c.o
+|           |   |   |           
+|           |   |   \---soc
+|           |   |       \---esp32
+|           |   |               cache_err_int.c.o
+|           |   |               clk.c.o
+|           |   |               highint_hdl.S.o
+|           |   |               reset_reason.c.o
+|           |   |               system_internal.c.o
+|           |   |               
+|           |   \---task_wdt
+|           |           task_wdt.c.o
+|           |           task_wdt_impl_timergroup.c.o
+|           |           
+|           +---esp_timer
+|           |   \---src
+|           |           esp_timer.c.o
+|           |           esp_timer_impl_common.c.o
+|           |           esp_timer_impl_lac.c.o
+|           |           esp_timer_init.c.o
+|           |           ets_timer_legacy.c.o
+|           |           system_time.c.o
+|           |           
+|           +---esp_vfs_console
+|           |       vfs_console.c.o
+|           |       
+|           +---esp_wifi
+|           |   +---esp32
+|           |   |       esp_adapter.c.o
+|           |   |       
+|           |   \---src
+|           |           lib_printf.c.o
+|           |           mesh_event.c.o
+|           |           smartconfig.c.o
+|           |           smartconfig_ack.c.o
+|           |           wifi_default.c.o
+|           |           wifi_default_ap.c.o
+|           |           wifi_init.c.o
+|           |           wifi_netif.c.o
+|           |           
+|           +---fatfs
+|           |   +---diskio
+|           |   |       diskio.c.o
+|           |   |       diskio_rawflash.c.o
+|           |   |       diskio_sdmmc.c.o
+|           |   |       diskio_wl.c.o
+|           |   |       
+|           |   +---port
+|           |   |   \---freertos
+|           |   |           ffsystem.c.o
+|           |   |           
+|           |   +---src
+|           |   |       ff.c.o
+|           |   |       ffunicode.c.o
+|           |   |       
+|           |   \---vfs
+|           |           vfs_fat.c.o
+|           |           vfs_fat_sdmmc.c.o
+|           |           vfs_fat_spiflash.c.o
+|           |           
+|           +---freertos
+|           |   |   app_startup.c.o
+|           |   |   heap_idf.c.o
+|           |   |   port_common.c.o
+|           |   |   port_systick.c.o
+|           |   |   
+|           |   +---esp_additions
+|           |   |       freertos_compatibility.c.o
+|           |   |       idf_additions.c.o
+|           |   |       idf_additions_event_groups.c.o
+|           |   |       
+|           |   \---FreeRTOS-Kernel
+|           |       |   event_groups.c.o
+|           |       |   list.c.o
+|           |       |   queue.c.o
+|           |       |   stream_buffer.c.o
+|           |       |   tasks.c.o
+|           |       |   timers.c.o
+|           |       |   
+|           |       \---portable
+|           |           \---xtensa
+|           |                   port.c.o
+|           |                   portasm.S.o
+|           |                   xtensa_init.c.o
+|           |                   xtensa_overlay_os_hook.c.o
+|           |                   
+|           +---hal
+|           |   |   adc_hal.c.o
+|           |   |   adc_hal_common.c.o
+|           |   |   adc_oneshot_hal.c.o
+|           |   |   aes_hal.c.o
+|           |   |   brownout_hal.c.o
+|           |   |   color_hal.c.o
+|           |   |   efuse_hal.c.o
+|           |   |   emac_hal.c.o
+|           |   |   gpio_hal.c.o
+|           |   |   hal_utils.c.o
+|           |   |   i2c_hal.c.o
+|           |   |   i2c_hal_iram.c.o
+|           |   |   i2s_hal.c.o
+|           |   |   ledc_hal.c.o
+|           |   |   ledc_hal_iram.c.o
+|           |   |   mcpwm_hal.c.o
+|           |   |   mmu_hal.c.o
+|           |   |   mpi_hal.c.o
+|           |   |   mpu_hal.c.o
+|           |   |   pcnt_hal.c.o
+|           |   |   rmt_hal.c.o
+|           |   |   rtc_io_hal.c.o
+|           |   |   sdio_slave_hal.c.o
+|           |   |   sdmmc_hal.c.o
+|           |   |   sdm_hal.c.o
+|           |   |   sha_hal.c.o
+|           |   |   spi_flash_encrypt_hal_iram.c.o
+|           |   |   spi_flash_hal.c.o
+|           |   |   spi_flash_hal_iram.c.o
+|           |   |   spi_hal.c.o
+|           |   |   spi_hal_iram.c.o
+|           |   |   spi_slave_hal.c.o
+|           |   |   spi_slave_hal_iram.c.o
+|           |   |   timer_hal.c.o
+|           |   |   touch_sensor_hal.c.o
+|           |   |   twai_hal.c.o
+|           |   |   twai_hal_iram.c.o
+|           |   |   uart_hal.c.o
+|           |   |   uart_hal_iram.c.o
+|           |   |   wdt_hal_iram.c.o
+|           |   |   
+|           |   \---esp32
+|           |           cache_hal_esp32.c.o
+|           |           clk_tree_hal.c.o
+|           |           efuse_hal.c.o
+|           |           gpio_hal_workaround.c.o
+|           |           touch_sensor_hal.c.o
+|           |           
+|           +---heap
+|           |   |   heap_caps.c.o
+|           |   |   heap_caps_base.c.o
+|           |   |   heap_caps_init.c.o
+|           |   |   multi_heap.c.o
+|           |   |   
+|           |   +---port
+|           |   |   |   memory_layout_utils.c.o
+|           |   |   |   
+|           |   |   \---esp32
+|           |   |           memory_layout.c.o
+|           |   |           
+|           |   \---tlsf
+|           |           tlsf.c.o
+|           |           
+|           +---http_parser
+|           |       http_parser.c.o
+|           |       
+|           +---json
+|           |   \---cJSON
+|           |           cJSON.c.o
+|           |           cJSON_Utils.c.o
+|           |           
+|           +---log
+|           |   \---src
+|           |       |   log_timestamp_common.c.o
+|           |       |   util.c.o
+|           |       |   
+|           |       +---buffer
+|           |       |       log_buffers.c.o
+|           |       |       
+|           |       +---log_level
+|           |       |   |   log_level.c.o
+|           |       |   |   
+|           |       |   \---tag_log_level
+|           |       |       |   tag_log_level.c.o
+|           |       |       |   
+|           |       |       +---cache
+|           |       |       |       log_binary_heap.c.o
+|           |       |       |       
+|           |       |       \---linked_list
+|           |       |               log_linked_list.c.o
+|           |       |               
+|           |       \---os
+|           |               log_lock.c.o
+|           |               log_timestamp.c.o
+|           |               log_write.c.o
+|           |               
+|           +---lwip
+|           |   +---apps
+|           |   |   +---dhcpserver
+|           |   |   |       dhcpserver.c.o
+|           |   |   |       
+|           |   |   +---ping
+|           |   |   |       esp_ping.c.o
+|           |   |   |       ping.c.o
+|           |   |   |       ping_sock.c.o
+|           |   |   |       
+|           |   |   \---sntp
+|           |   |           sntp.c.o
+|           |   |           
+|           |   +---lwip
+|           |   |   \---src
+|           |   |       +---api
+|           |   |       |       api_lib.c.o
+|           |   |       |       api_msg.c.o
+|           |   |       |       err.c.o
+|           |   |       |       if_api.c.o
+|           |   |       |       netbuf.c.o
+|           |   |       |       netdb.c.o
+|           |   |       |       netifapi.c.o
+|           |   |       |       sockets.c.o
+|           |   |       |       tcpip.c.o
+|           |   |       |       
+|           |   |       +---apps
+|           |   |       |   +---netbiosns
+|           |   |       |   |       netbiosns.c.o
+|           |   |       |   |       
+|           |   |       |   \---sntp
+|           |   |       |           sntp.c.o
+|           |   |       |           
+|           |   |       +---core
+|           |   |       |   |   def.c.o
+|           |   |       |   |   dns.c.o
+|           |   |       |   |   inet_chksum.c.o
+|           |   |       |   |   init.c.o
+|           |   |       |   |   ip.c.o
+|           |   |       |   |   mem.c.o
+|           |   |       |   |   memp.c.o
+|           |   |       |   |   netif.c.o
+|           |   |       |   |   pbuf.c.o
+|           |   |       |   |   raw.c.o
+|           |   |       |   |   stats.c.o
+|           |   |       |   |   sys.c.o
+|           |   |       |   |   tcp.c.o
+|           |   |       |   |   tcp_in.c.o
+|           |   |       |   |   tcp_out.c.o
+|           |   |       |   |   timeouts.c.o
+|           |   |       |   |   udp.c.o
+|           |   |       |   |   
+|           |   |       |   +---ipv4
+|           |   |       |   |       autoip.c.o
+|           |   |       |   |       dhcp.c.o
+|           |   |       |   |       etharp.c.o
+|           |   |       |   |       icmp.c.o
+|           |   |       |   |       igmp.c.o
+|           |   |       |   |       ip4.c.o
+|           |   |       |   |       ip4_addr.c.o
+|           |   |       |   |       ip4_frag.c.o
+|           |   |       |   |       ip4_napt.c.o
+|           |   |       |   |       
+|           |   |       |   \---ipv6
+|           |   |       |           dhcp6.c.o
+|           |   |       |           ethip6.c.o
+|           |   |       |           icmp6.c.o
+|           |   |       |           inet6.c.o
+|           |   |       |           ip6.c.o
+|           |   |       |           ip6_addr.c.o
+|           |   |       |           ip6_frag.c.o
+|           |   |       |           mld6.c.o
+|           |   |       |           nd6.c.o
+|           |   |       |           
+|           |   |       \---netif
+|           |   |           |   bridgeif.c.o
+|           |   |           |   bridgeif_fdb.c.o
+|           |   |           |   ethernet.c.o
+|           |   |           |   slipif.c.o
+|           |   |           |   
+|           |   |           \---ppp
+|           |   |               |   auth.c.o
+|           |   |               |   ccp.c.o
+|           |   |               |   chap-md5.c.o
+|           |   |               |   chap-new.c.o
+|           |   |               |   chap_ms.c.o
+|           |   |               |   demand.c.o
+|           |   |               |   eap.c.o
+|           |   |               |   ecp.c.o
+|           |   |               |   eui64.c.o
+|           |   |               |   fsm.c.o
+|           |   |               |   ipcp.c.o
+|           |   |               |   ipv6cp.c.o
+|           |   |               |   lcp.c.o
+|           |   |               |   magic.c.o
+|           |   |               |   mppe.c.o
+|           |   |               |   multilink.c.o
+|           |   |               |   ppp.c.o
+|           |   |               |   pppapi.c.o
+|           |   |               |   pppcrypt.c.o
+|           |   |               |   pppoe.c.o
+|           |   |               |   pppol2tp.c.o
+|           |   |               |   pppos.c.o
+|           |   |               |   upap.c.o
+|           |   |               |   utils.c.o
+|           |   |               |   vj.c.o
+|           |   |               |   
+|           |   |               \---polarssl
+|           |   |                       arc4.c.o
+|           |   |                       des.c.o
+|           |   |                       md4.c.o
+|           |   |                       md5.c.o
+|           |   |                       sha1.c.o
+|           |   |                       
+|           |   \---port
+|           |       |   acd_dhcp_check.c.o
+|           |       |   sockets_ext.c.o
+|           |       |   
+|           |       +---debug
+|           |       |       lwip_debug.c.o
+|           |       |       
+|           |       +---esp32xx
+|           |       |       vfs_lwip.c.o
+|           |       |       
+|           |       +---freertos
+|           |       |       sys_arch.c.o
+|           |       |       
+|           |       \---hooks
+|           |               lwip_default_hooks.c.o
+|           |               tcp_isn_default.c.o
+|           |               
+|           +---mbedtls
+|           |   +---esp_crt_bundle
+|           |   |       esp_crt_bundle.c.o
+|           |   |       
+|           |   +---mbedtls
+|           |   |   +---3rdparty
+|           |   |   |   +---everest
+|           |   |   |   |   \---library
+|           |   |   |   |           everest.c.o
+|           |   |   |   |           Hacl_Curve25519_joined.c.o
+|           |   |   |   |           x25519.c.o
+|           |   |   |   |           
+|           |   |   |   \---p256-m
+|           |   |   |       |   p256-m_driver_entrypoints.c.o
+|           |   |   |       |   
+|           |   |   |       \---p256-m
+|           |   |   |               p256-m.c.o
+|           |   |   |               
+|           |   |   \---library
+|           |   |           aes.c.o
+|           |   |           aesce.c.o
+|           |   |           aesni.c.o
+|           |   |           aria.c.o
+|           |   |           asn1parse.c.o
+|           |   |           asn1write.c.o
+|           |   |           base64.c.o
+|           |   |           bignum.c.o
+|           |   |           bignum_core.c.o
+|           |   |           bignum_mod.c.o
+|           |   |           bignum_mod_raw.c.o
+|           |   |           block_cipher.c.o
+|           |   |           camellia.c.o
+|           |   |           ccm.c.o
+|           |   |           chacha20.c.o
+|           |   |           chachapoly.c.o
+|           |   |           cipher.c.o
+|           |   |           cipher_wrap.c.o
+|           |   |           cmac.c.o
+|           |   |           constant_time.c.o
+|           |   |           ctr_drbg.c.o
+|           |   |           debug.c.o
+|           |   |           des.c.o
+|           |   |           dhm.c.o
+|           |   |           ecdh.c.o
+|           |   |           ecdsa.c.o
+|           |   |           ecjpake.c.o
+|           |   |           ecp.c.o
+|           |   |           ecp_curves.c.o
+|           |   |           ecp_curves_new.c.o
+|           |   |           entropy.c.o
+|           |   |           entropy_poll.c.o
+|           |   |           error.c.o
+|           |   |           gcm.c.o
+|           |   |           hkdf.c.o
+|           |   |           hmac_drbg.c.o
+|           |   |           lmots.c.o
+|           |   |           lms.c.o
+|           |   |           md.c.o
+|           |   |           md5.c.o
+|           |   |           memory_buffer_alloc.c.o
+|           |   |           mps_reader.c.o
+|           |   |           mps_trace.c.o
+|           |   |           nist_kw.c.o
+|           |   |           oid.c.o
+|           |   |           padlock.c.o
+|           |   |           pem.c.o
+|           |   |           pk.c.o
+|           |   |           pkcs12.c.o
+|           |   |           pkcs5.c.o
+|           |   |           pkcs7.c.o
+|           |   |           pkparse.c.o
+|           |   |           pkwrite.c.o
+|           |   |           pk_ecc.c.o
+|           |   |           pk_wrap.c.o
+|           |   |           platform.c.o
+|           |   |           platform_util.c.o
+|           |   |           poly1305.c.o
+|           |   |           psa_crypto.c.o
+|           |   |           psa_crypto_aead.c.o
+|           |   |           psa_crypto_cipher.c.o
+|           |   |           psa_crypto_client.c.o
+|           |   |           psa_crypto_driver_wrappers_no_static.c.o
+|           |   |           psa_crypto_ecp.c.o
+|           |   |           psa_crypto_ffdh.c.o
+|           |   |           psa_crypto_hash.c.o
+|           |   |           psa_crypto_mac.c.o
+|           |   |           psa_crypto_pake.c.o
+|           |   |           psa_crypto_rsa.c.o
+|           |   |           psa_crypto_se.c.o
+|           |   |           psa_crypto_slot_management.c.o
+|           |   |           psa_crypto_storage.c.o
+|           |   |           psa_its_file.c.o
+|           |   |           psa_util.c.o
+|           |   |           ripemd160.c.o
+|           |   |           rsa.c.o
+|           |   |           rsa_alt_helpers.c.o
+|           |   |           sha1.c.o
+|           |   |           sha256.c.o
+|           |   |           sha3.c.o
+|           |   |           sha512.c.o
+|           |   |           ssl_cache.c.o
+|           |   |           ssl_ciphersuites.c.o
+|           |   |           ssl_client.c.o
+|           |   |           ssl_cookie.c.o
+|           |   |           ssl_debug_helpers_generated.c.o
+|           |   |           ssl_msg.c.o
+|           |   |           ssl_ticket.c.o
+|           |   |           ssl_tls.c.o
+|           |   |           ssl_tls12_client.c.o
+|           |   |           ssl_tls12_server.c.o
+|           |   |           ssl_tls13_client.c.o
+|           |   |           ssl_tls13_generic.c.o
+|           |   |           ssl_tls13_keys.c.o
+|           |   |           ssl_tls13_server.c.o
+|           |   |           threading.c.o
+|           |   |           timing.c.o
+|           |   |           version.c.o
+|           |   |           version_features.c.o
+|           |   |           x509.c.o
+|           |   |           x509write.c.o
+|           |   |           x509write_crt.c.o
+|           |   |           x509write_csr.c.o
+|           |   |           x509_create.c.o
+|           |   |           x509_crl.c.o
+|           |   |           x509_crt.c.o
+|           |   |           x509_csr.c.o
+|           |   |           
+|           |   \---port
+|           |       |   esp_hardware.c.o
+|           |       |   esp_mem.c.o
+|           |       |   esp_platform_time.c.o
+|           |       |   esp_timing.c.o
+|           |       |   mbedtls_debug.c.o
+|           |       |   net_sockets.c.o
+|           |       |   
+|           |       +---aes
+|           |       |   |   esp_aes_common.c.o
+|           |       |   |   esp_aes_gcm.c.o
+|           |       |   |   esp_aes_xts.c.o
+|           |       |   |   
+|           |       |   \---block
+|           |       |           esp_aes.c.o
+|           |       |           
+|           |       +---bignum
+|           |       |       bignum_alt.c.o
+|           |       |       esp_bignum.c.o
+|           |       |       
+|           |       +---md
+|           |       |       esp_md.c.o
+|           |       |       
+|           |       \---sha
+|           |           |   esp_sha.c.o
+|           |           |   
+|           |           \---parallel_engine
+|           |                   esp_sha1.c.o
+|           |                   esp_sha256.c.o
+|           |                   esp_sha512.c.o
+|           |                   sha.c.o
+|           |                   
+|           +---mqtt
+|           |   \---esp-mqtt
+|           |       |   mqtt_client.c.o
+|           |       |   
+|           |       \---lib
+|           |               mqtt_msg.c.o
+|           |               mqtt_outbox.c.o
+|           |               platform_esp32_idf.c.o
+|           |               
+|           +---newlib
+|           |   |   abort.c.o
+|           |   |   assert.c.o
+|           |   |   flockfile.c.o
+|           |   |   getentropy.c.o
+|           |   |   heap.c.o
+|           |   |   locks.c.o
+|           |   |   newlib_init.c.o
+|           |   |   poll.c.o
+|           |   |   pthread.c.o
+|           |   |   random.c.o
+|           |   |   realpath.c.o
+|           |   |   reent_init.c.o
+|           |   |   scandir.c.o
+|           |   |   stdatomic.c.o
+|           |   |   syscalls.c.o
+|           |   |   sysconf.c.o
+|           |   |   termios.c.o
+|           |   |   time.c.o
+|           |   |   
+|           |   \---port
+|           |           esp_time_impl.c.o
+|           |           
+|           +---nvs_flash
+|           |   \---src
+|           |           nvs_api.cpp.o
+|           |           nvs_bootloader.c.o
+|           |           nvs_cxx_api.cpp.o
+|           |           nvs_encrypted_partition.cpp.o
+|           |           nvs_handle_locked.cpp.o
+|           |           nvs_handle_simple.cpp.o
+|           |           nvs_item_hash_list.cpp.o
+|           |           nvs_page.cpp.o
+|           |           nvs_pagemanager.cpp.o
+|           |           nvs_partition.cpp.o
+|           |           nvs_partition_lookup.cpp.o
+|           |           nvs_partition_manager.cpp.o
+|           |           nvs_platform.cpp.o
+|           |           nvs_storage.cpp.o
+|           |           nvs_types.cpp.o
+|           |           
+|           +---nvs_sec_provider
+|           |       nvs_sec_provider.c.o
+|           |       
+|           +---perfmon
+|           |       xtensa_perfmon_access.c.o
+|           |       xtensa_perfmon_apis.c.o
+|           |       xtensa_perfmon_masks.c.o
+|           |       
+|           +---protobuf-c
+|           |   \---protobuf-c
+|           |       \---protobuf-c
+|           |               protobuf-c.c.o
+|           |               
+|           +---protocomm
+|           |   +---proto-c
+|           |   |       constants.pb-c.c.o
+|           |   |       sec0.pb-c.c.o
+|           |   |       sec1.pb-c.c.o
+|           |   |       sec2.pb-c.c.o
+|           |   |       session.pb-c.c.o
+|           |   |       
+|           |   \---src
+|           |       +---common
+|           |       |       protocomm.c.o
+|           |       |       
+|           |       +---crypto
+|           |       |   \---srp6a
+|           |       |           esp_srp.c.o
+|           |       |           esp_srp_mpi.c.o
+|           |       |           
+|           |       +---security
+|           |       |       security0.c.o
+|           |       |       security1.c.o
+|           |       |       security2.c.o
+|           |       |       
+|           |       \---transports
+|           |               protocomm_console.c.o
+|           |               protocomm_httpd.c.o
+|           |               
+|           +---pthread
+|           |       pthread.c.o
+|           |       pthread_cond_var.c.o
+|           |       pthread_local_storage.c.o
+|           |       pthread_rwlock.c.o
+|           |       pthread_semaphore.c.o
+|           |       
+|           +---rt
+|           |       FreeRTOS_POSIX_mqueue.c.o
+|           |       FreeRTOS_POSIX_utils.c.o
+|           |       
+|           +---sdmmc
+|           |   |   sdmmc_cmd.c.o
+|           |   |   sdmmc_common.c.o
+|           |   |   sdmmc_init.c.o
+|           |   |   sdmmc_io.c.o
+|           |   |   sdmmc_mmc.c.o
+|           |   |   sdmmc_sd.c.o
+|           |   |   
+|           |   \---sd_pwr_ctrl
+|           |           sd_pwr_ctrl.c.o
+|           |           
+|           +---soc
+|           |   |   dport_access_common.c.o
+|           |   |   lldesc.c.o
+|           |   |   
+|           |   \---esp32
+|           |           adc_periph.c.o
+|           |           dac_periph.c.o
+|           |           dport_access.c.o
+|           |           emac_periph.c.o
+|           |           gpio_periph.c.o
+|           |           i2c_periph.c.o
+|           |           i2s_periph.c.o
+|           |           interrupts.c.o
+|           |           lcd_periph.c.o
+|           |           ledc_periph.c.o
+|           |           mcpwm_periph.c.o
+|           |           mpi_periph.c.o
+|           |           pcnt_periph.c.o
+|           |           rmt_periph.c.o
+|           |           rtc_io_periph.c.o
+|           |           sdio_slave_periph.c.o
+|           |           sdmmc_periph.c.o
+|           |           sdm_periph.c.o
+|           |           spi_periph.c.o
+|           |           timer_periph.c.o
+|           |           touch_sensor_periph.c.o
+|           |           twai_periph.c.o
+|           |           uart_periph.c.o
+|           |           wdt_periph.c.o
+|           |           
+|           +---spiffs
+|           |   |   esp_spiffs.c.o
+|           |   |   spiffs_api.c.o
+|           |   |   
+|           |   \---spiffs
+|           |       \---src
+|           |               spiffs_cache.c.o
+|           |               spiffs_check.c.o
+|           |               spiffs_gc.c.o
+|           |               spiffs_hydrogen.c.o
+|           |               spiffs_nucleus.c.o
+|           |               
+|           +---spi_flash
+|           |       cache_utils.c.o
+|           |       esp_flash_api.c.o
+|           |       esp_flash_spi_init.c.o
+|           |       flash_brownout_hook.c.o
+|           |       flash_mmap.c.o
+|           |       flash_ops.c.o
+|           |       memspi_host_driver.c.o
+|           |       spi_flash_chip_boya.c.o
+|           |       spi_flash_chip_drivers.c.o
+|           |       spi_flash_chip_gd.c.o
+|           |       spi_flash_chip_generic.c.o
+|           |       spi_flash_chip_issi.c.o
+|           |       spi_flash_chip_mxic.c.o
+|           |       spi_flash_chip_mxic_opi.c.o
+|           |       spi_flash_chip_th.c.o
+|           |       spi_flash_chip_winbond.c.o
+|           |       spi_flash_os_func_app.c.o
+|           |       spi_flash_os_func_noos.c.o
+|           |       spi_flash_wrap.c.o
+|           |       
+|           +---src
+|           |       AccessPoint.c.o
+|           |       DeepSleep.c.o
+|           |       main.c.o
+|           |       SPIFFS.c.o
+|           |       Webserver.c.o
+|           |       Websockets.c.o
+|           |       
+|           +---tcp_transport
+|           |       transport.c.o
+|           |       transport_internal.c.o
+|           |       transport_socks_proxy.c.o
+|           |       transport_ssl.c.o
+|           |       transport_ws.c.o
+|           |       
+|           +---unity
+|           |   |   unity_compat.c.o
+|           |   |   unity_port_esp32.c.o
+|           |   |   unity_runner.c.o
+|           |   |   unity_utils_cache.c.o
+|           |   |   unity_utils_freertos.c.o
+|           |   |   unity_utils_memory.c.o
+|           |   |   
+|           |   +---port
+|           |   |   \---esp
+|           |   |           unity_utils_memory_esp.c.o
+|           |   |           
+|           |   \---unity
+|           |       \---src
+|           |               unity.c.o
+|           |               
+|           +---vfs
+|           |       nullfs.c.o
+|           |       vfs.c.o
+|           |       vfs_eventfd.c.o
+|           |       vfs_semihost.c.o
+|           |       
+|           +---wear_levelling
+|           |       crc32.cpp.o
+|           |       Partition.cpp.o
+|           |       SPI_Flash.cpp.o
+|           |       wear_levelling.cpp.o
+|           |       WL_Ext_Perf.cpp.o
+|           |       WL_Ext_Safe.cpp.o
+|           |       WL_Flash.cpp.o
+|           |       
+|           +---wifi_provisioning
+|           |   +---proto-c
+|           |   |       wifi_config.pb-c.c.o
+|           |   |       wifi_constants.pb-c.c.o
+|           |   |       wifi_ctrl.pb-c.c.o
+|           |   |       wifi_scan.pb-c.c.o
+|           |   |       
+|           |   \---src
+|           |           handlers.c.o
+|           |           manager.c.o
+|           |           scheme_console.c.o
+|           |           scheme_softap.c.o
+|           |           wifi_config.c.o
+|           |           wifi_ctrl.c.o
+|           |           wifi_scan.c.o
+|           |           
+|           +---wpa_supplicant
+|           |   +---esp_supplicant
+|           |   |   \---src
+|           |   |       |   esp_common.c.o
+|           |   |       |   esp_eap_client.c.o
+|           |   |       |   esp_hostap.c.o
+|           |   |       |   esp_owe.c.o
+|           |   |       |   esp_wpa2_api_port.c.o
+|           |   |       |   esp_wpa3.c.o
+|           |   |       |   esp_wpas_glue.c.o
+|           |   |       |   esp_wpa_main.c.o
+|           |   |       |   esp_wps.c.o
+|           |   |       |   
+|           |   |       \---crypto
+|           |   |               crypto_mbedtls-bignum.c.o
+|           |   |               crypto_mbedtls-ec.c.o
+|           |   |               crypto_mbedtls-rsa.c.o
+|           |   |               crypto_mbedtls.c.o
+|           |   |               fastpbkdf2.c.o
+|           |   |               tls_mbedtls.c.o
+|           |   |               
+|           |   +---port
+|           |   |       eloop.c.o
+|           |   |       os_xtensa.c.o
+|           |   |       
+|           |   \---src
+|           |       +---ap
+|           |       |       ap_config.c.o
+|           |       |       comeback_token.c.o
+|           |       |       ieee802_11.c.o
+|           |       |       ieee802_1x.c.o
+|           |       |       pmksa_cache_auth.c.o
+|           |       |       sta_info.c.o
+|           |       |       wpa_auth.c.o
+|           |       |       wpa_auth_ie.c.o
+|           |       |       
+|           |       +---common
+|           |       |       dragonfly.c.o
+|           |       |       ieee802_11_common.c.o
+|           |       |       sae.c.o
+|           |       |       sae_pk.c.o
+|           |       |       wpa_common.c.o
+|           |       |       
+|           |       +---crypto
+|           |       |       aes-ccm.c.o
+|           |       |       aes-gcm.c.o
+|           |       |       aes-siv.c.o
+|           |       |       aes-unwrap.c.o
+|           |       |       aes-wrap.c.o
+|           |       |       ccmp.c.o
+|           |       |       crypto_ops.c.o
+|           |       |       des-internal.c.o
+|           |       |       dh_group5.c.o
+|           |       |       dh_groups.c.o
+|           |       |       md4-internal.c.o
+|           |       |       ms_funcs.c.o
+|           |       |       rc4.c.o
+|           |       |       sha1-prf.c.o
+|           |       |       sha1-tlsprf.c.o
+|           |       |       sha1-tprf.c.o
+|           |       |       sha256-kdf.c.o
+|           |       |       sha256-prf.c.o
+|           |       |       sha256-tlsprf.c.o
+|           |       |       sha384-prf.c.o
+|           |       |       sha384-tlsprf.c.o
+|           |       |       
+|           |       +---eap_common
+|           |       |       eap_wsc_common.c.o
+|           |       |       
+|           |       +---eap_peer
+|           |       |       chap.c.o
+|           |       |       eap.c.o
+|           |       |       eap_common.c.o
+|           |       |       eap_fast.c.o
+|           |       |       eap_fast_common.c.o
+|           |       |       eap_fast_pac.c.o
+|           |       |       eap_mschapv2.c.o
+|           |       |       eap_peap.c.o
+|           |       |       eap_peap_common.c.o
+|           |       |       eap_tls.c.o
+|           |       |       eap_tls_common.c.o
+|           |       |       eap_ttls.c.o
+|           |       |       mschapv2.c.o
+|           |       |       
+|           |       +---rsn_supp
+|           |       |       pmksa_cache.c.o
+|           |       |       wpa.c.o
+|           |       |       wpa_ie.c.o
+|           |       |       
+|           |       +---utils
+|           |       |       base64.c.o
+|           |       |       bitfield.c.o
+|           |       |       common.c.o
+|           |       |       ext_password.c.o
+|           |       |       json.c.o
+|           |       |       uuid.c.o
+|           |       |       wpabuf.c.o
+|           |       |       wpa_debug.c.o
+|           |       |       
+|           |       \---wps
+|           |               wps.c.o
+|           |               wps_attr_build.c.o
+|           |               wps_attr_parse.c.o
+|           |               wps_attr_process.c.o
+|           |               wps_common.c.o
+|           |               wps_dev_attr.c.o
+|           |               wps_enrollee.c.o
+|           |               
+|           \---xtensa
+|                   eri.c.o
+|                   xtensa_context.S.o
+|                   xtensa_intr.c.o
+|                   xtensa_intr_asm.S.o
+|                   xtensa_vectors.S.o
+|                   xt_trax.c.o
+|                   
++---.vscode
+|       c_cpp_properties.json
+|       extensions.json
+|       launch.json
+|       settings.json
+|       
++---data
+|       esplockAccess.html
+|       esplockAccess.js
+|       esplockAddUser.html
+|       esplockAddUser.js
+|       esplockMain.html
+|       esplockMain.js
+|       esplockNewAccess.html
+|       esplockNewAccess.js
+|       esplockstyle.css
+|       esplockUsers.html
+|       esplockUsers.js
+|       history
+|       users.txt
+|       
++---include
+|       h_AccessPoint.h
+|       h_DeepSleep.h
+|       h_SPIFFS.h
+|       h_Webserver.h
+|       h_Websockets.h
+|       README
+|       
++---lib
+|       README
+|       
++---src
+|       AccessPoint.c
+|       CMakeLists.txt
+|       DeepSleep.c
+|       main.c
+|       SPIFFS.c
+|       Webserver.c
+|       Websockets.c
+|       
+\---test
+        README
+        

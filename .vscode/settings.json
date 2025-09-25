@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "*.embeddedhtml": "html",
+        "esp_sleep.h": "c",
+        "sys.h": "c",
+        "h_webserver.h": "c",
+        "lp_io.h": "c",
+        "h_deepsleep.h": "c",
+        "touch_sensor.h": "c"
+    }
+}
