@@ -32,7 +32,7 @@ static void response(void *arg)
     ws_pkt.len = strlen(data);
     ws_pkt.type = HTTPD_WS_TYPE_TEXT;
 
-    ESP_LOGW("DEBUG","Current payload: (%s)", ws_pkt.payload);
+    // ESP_LOGW("DEBUG","Current payload: (%s)", ws_pkt.payload);
 
     httpd_ws_send_frame_async(hd, fd, &ws_pkt);
     if (memFree==true){
